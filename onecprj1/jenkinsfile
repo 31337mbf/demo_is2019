@@ -1,0 +1,5 @@
+@Library('demo-onec-ci-cd')_
+
+node('onec-test') {
+	startPipeline();
+}
